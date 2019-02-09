@@ -1,0 +1,109 @@
+*{
+/*background-color:#c7c7c7;*/
+	margin:0;
+	padding:0;
+	text-decoration:none;	
+	font-family:Verdana;
+}
+#tudo header{
+	font-family:Verdana ;
+	font-size:40px;
+	font-weight: bold;
+	color:blue;
+	margin:2% 10% 2% 10%;
+	
+}
+#tudo{ 
+	z-index:1;
+}
+
+#menu{
+	width:100%;	
+	background-color:#09F;
+	height:35px;
+	z-index:3;
+	
+}
+/*style the main menu*/
+#menu nav {
+	margin-left:10%;
+}
+
+#menu nav li {
+	list-style:none;
+	float:left;
+	font:12px Arial, Helvetica, sans-serif #111;
+	
+}
+
+#menu nav li a:link, #menu nav li a:visited {
+	display:block;
+	text-decoration:none;
+	background-color:#09F;
+	padding: 0.5em 2em;
+	margin:0;
+	border-right: 1px solid #fff;
+	color:#111;
+	z-index:10;
+	
+}
+
+#menu nav li a:hover {
+	background-color:#0CF;
+}
+
+/*style the sub menu*/
+#menu nav li ul {
+	position:absolute;
+	visibility:hidden;
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+	z-index:10;
+	
+}
+
+#menu nav li ul li {
+	display:inline;
+	float:none;
+	z-index:10;
+}
+
+#menu nav li ul li a:link, #menu nav li ul li a:visited {
+	background-color:#09F;
+	width:auto;
+	z-index:10;
+}
+
+#menu nav li ul li a:hover {
+	background-color:#0CF;	
+	
+	
+}
+
+#slides{
+	width:900px;
+	height:400px;
+	margin:0 auto;
+	overflow:hidden;
+	background-image:no-repeat;
+	z-index:2;
+	
+}
+article{
+	margin:0% 10% 0% 10%;
+}
+p{
+	text-align:center;
+}
+
+img{
+	
+	width:900px;
+	height:400px;
+	background-repeat: no-repeat;
+	
+}
+h1{
+	text-align:center;
+}
